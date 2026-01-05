@@ -58,7 +58,6 @@ export default async function RootLayout({
               <NextIntlClientProvider messages={messages}>
                 <GridBackground />
                 {children}
-                <Chatbot />
                 <BookingModal />
               </NextIntlClientProvider>
             </BookingProvider>
