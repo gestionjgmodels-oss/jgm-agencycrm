@@ -29,7 +29,7 @@ export default function LoginPage() {
 
             if (isSignUp) {
                 // "Registration" is always successful in this demo
-                success = login('admin', 'helixx2026'); // Reuse admin session for simplicity
+                success = login('admin', 'jgmodels2026'); // Reuse admin session for simplicity
             } else {
                 // Strict check for Login
                 success = login(username, password);
@@ -38,7 +38,7 @@ export default function LoginPage() {
             if (success) {
                 router.push('/admin/inbox');
             } else {
-                setError('Invalid credentials. Try user: admin / pass: helixx2026');
+                setError('Invalid credentials. Try user: admin / pass: jgmodels2026');
                 setIsLoading(false);
             }
         }, 1000);
@@ -189,7 +189,7 @@ export default function LoginPage() {
                 </div>
 
                 <p className="text-center text-gray-600 text-xs mt-8">
-                    By continuing, you agree to Helixx's Terms of Service and Privacy Policy. <br />
+                    By continuing, you agree to JG Agency's Terms of Service and Privacy Policy. <br />
                     Secure System v2.4.0
                 </p>
             </motion.div>
