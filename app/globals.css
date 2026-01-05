@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --color-brand-primary: #111111;
+  /* Dark Text for Light Mode */
+  --color-brand-secondary: #666666;
+  /* Grey Text */
+  --color-brand-accent: #0066FF;
+  /* Electric Blue (darker for readability on white) */
+  --color-brand-accent-secondary: #00F0FF;
+  /* Cyan Highlight */
+  --color-brand-dark: #FFFFFF;
+  /* WHITE Background */
+  --color-brand-panel: #F5F5FA;
+  /* Light Grey/Blue Tint Panel */
+
+  --animate-fade-in: fadeIn 0.8s ease-out forwards;
+  --animate-slide-up: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-glow-pulse: glowPulse 4s infinite ease-in-out;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-shine: shine 8s linear infinite;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes glowPulse {
+    0% {
+      box-shadow: 0 0 20px rgba(0, 102, 255, 0.1);
+    }
+
+    50% {
+      box-shadow: 0 0 40px rgba(0, 102, 255, 0.2);
+    }
+
+    100% {
+      box-shadow: 0 0 20px rgba(0, 102, 255, 0.1);
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 200% center;
+    }
+
+    100% {
+      background-position: -200% center;
+    }
+  }
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #111111;
+  color-scheme: light;
+  /* Enforce Light Mode */
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-attachment: fixed;
+  color: var(--foreground);
+  font-family: var(--font-geist-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:root[data-theme="light"] body {
+  background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #FAFCFF 80%, #E6F0FF 100%);
+}
+
+:root[data-theme="dark"] body {
+  background: #030303 !important;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+@layer utilities {
+  .snap-start {
+    scroll-snap-align: start;
+  }
+
+  .snap-always {
+    scroll-snap-stop: always;
+  }
+
+  .fade-mask-x {
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  }
+
+  .glass-panel {
+    @apply border border-black/5 bg-white/50 backdrop-blur-xl shadow-lg;
+  }
+
+  .container-width {
+    @apply max-w-[1600px] mx-auto px-6 md:px-12;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(0, 102, 255, 0.3);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee-infinite {
+  animation: marquee 120s linear infinite;
+  width: max-content;
+  /* Ensure container takes full width */
+}
+
+.animate-marquee-reverse-infinite {
+  animation: marquee-reverse 120s linear infinite;
+  width: max-content;
+  /* Ensure container takes full width */
+}

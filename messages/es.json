@@ -1,0 +1,273 @@
+{
+    "Header": {
+        "services": "Servicios",
+        "process": "Metodología",
+        "pricing": "Planes",
+        "results": "Resultados",
+        "getStarted": "Consulta Gratis"
+    },
+    "Hero": {
+        "badge": "Ecosistemas Digitales",
+        "titleLine1": "Webs que funcionan como",
+        "titleHighlight": "Sistemas Inteligentes",
+        "description": "Transformamos ideas en sistemas web inteligentes que funcionan como motores de crecimiento. Automatiza, convierte y escala tu negocio.",
+        "ctaPrimary": "Iniciar Transformación",
+        "ctaSecondary": "Ver Pilares",
+        "stats": {
+            "projects": "Sistemas Entregados",
+            "uptime": "Automatización",
+            "costReduction": "Conversión",
+            "satisfaction": "Escalabilidad"
+        }
+    },
+    "Services": {
+        "headline": "Pilares del",
+        "headlineHighlight": "ADN Helixx",
+        "subheadline": "No hacemos sitios bonitos — hacemos ecosistemas digitales que generan resultados medibles.",
+        "title": "Nuestros Servicios",
+        "subtitle": "Soluciones integrales para el crecimiento digital.",
+        "items": {
+            "consulting": {
+                "title": "Consultoría Estratégica",
+                "description": "Diagnóstico profundo de negocio, marketing y tecnología para definir un plan de crecimiento sostenible.",
+                "features": {
+                    "1": "Auditoría integral de marca y canales",
+                    "2": "Roadmap de crecimiento",
+                    "3": "Análisis de rentabilidad",
+                    "4": "Priorización de inversión"
+                }
+            },
+            "development": {
+                "title": "Desarrollo Tecnológico",
+                "description": "Diseñamos plataformas digitales centradas en rendimiento, conversión y escalabilidad.",
+                "features": {
+                    "1": "Websites y E-commerce a la medida",
+                    "2": "Software y plataformas internas (CRM/ERP)",
+                    "3": "Aplicaciones móviles (Android / iOS)",
+                    "4": "Infraestructura digital completa"
+                }
+            },
+            "branding": {
+                "title": "Branding y Diseño",
+                "description": "Fortalecemos la identidad visual y verbal de las marcas para que transmitan confianza y autoridad.",
+                "features": {
+                    "1": "Manual de marca (Brandbook)",
+                    "2": "Naming y storytelling",
+                    "3": "Diseño UI/UX",
+                    "4": "Materiales comerciales y digitales"
+                }
+            }
+        },
+        "cards": {
+            "webDev": {
+                "title": "Tecnología al Servicio del Negocio",
+                "description": "Arquitecturas frontend y backend que impactan conversiones. Next.js, GSAP, APIs robustas.",
+                "features": [
+                    "Arquitectura Next.js",
+                    "Headless CMS",
+                    "Performance Real"
+                ]
+            },
+            "automation": {
+                "title": "Sistemas que Trabajan Solos",
+                "description": "Automatizaciones nativas: formularios → CRM → notificaciones → flujos de venta.",
+                "features": [
+                    "Integración CRM",
+                    "Flujos de Venta",
+                    "Notificaciones Auto"
+                ]
+            },
+            "ai": {
+                "title": "Interacción que Educa",
+                "description": "UX informativa, motion intencional. El uso de animaciones no es decorativo, sino didáctico.",
+                "features": [
+                    "Motion UX",
+                    "Diseño Persuasivo",
+                    "Claridad Visual"
+                ]
+            },
+            "crm": {
+                "title": "Medición y Crecimiento",
+                "description": "Métricas integradas desde el inicio: Tasa de conversión, Tiempo en interacción, efectividad.",
+                "features": [
+                    "Analítica Avanzada",
+                    "Optimización ROI",
+                    "Datos Accionables"
+                ]
+            }
+        }
+    },
+    "Process": {
+        "headline": "Nuestra",
+        "headlineHighlight": "Metodología",
+        "subheadline": "Un proceso optimizado diseñado para entregar resultados de manera eficiente y efectiva.",
+        "steps": {
+            "0": {
+                "title": "Diagnóstico",
+                "desc": "Analizamos su infraestructura actual e identificamos cuellos de botella."
+            },
+            "1": {
+                "title": "Estrategia",
+                "desc": "Diseñamos una hoja de ruta personalizada adaptada a sus objetivos específicos."
+            },
+            "2": {
+                "title": "Desarrollo",
+                "desc": "Nuestros expertos construyen su solución utilizando tecnología de vanguardia."
+            },
+            "3": {
+                "title": "Optimización",
+                "desc": "Monitoreo y mejoras continuas para un tiempo de actividad máximo."
+            }
+        }
+    },
+    "TechStack": {
+        "poweredBy": "Impulsado por tecnologías modernas"
+    },
+    "Footer": {
+        "readyTo": "¿Listo para",
+        "scale": "Escalar?",
+        "ctaText": "Reserve una consulta gratuita con nuestros expertos y descubra cómo podemos transformar su operación digital.",
+        "form": {
+            "namePlaceholder": "Nombre",
+            "emailPlaceholder": "Correo Electrónico",
+            "messagePlaceholder": "Cuéntanos sobre tu proyecto",
+            "submitButton": "Enviar Solicitud"
+        },
+        "copyright": "© 2026 Helixx Studio. Todos los derechos reservados.",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio"
+    },
+    "Pricing": {
+        "headline": "Modelos de Inversión",
+        "subheadline": "No te vendemos un sitio, te entregamos un sistema que capta, procesa y convierte clientes automáticamente.",
+        "tiers": {
+            "basic": {
+                "title": "Website Básico",
+                "subtitle": "Presencia Profesional",
+                "price": "$800 – $1,200",
+                "idealFor": "Negocios pequeños, marcas personales.",
+                "features": [
+                    "1–5 secciones",
+                    "Diseño UI premium",
+                    "Responsive",
+                    "Animaciones básicas",
+                    "SEO básico",
+                    "Formulario de contacto"
+                ]
+            },
+            "landing": {
+                "title": "Landing Page",
+                "subtitle": "Conversión / Leads",
+                "price": "$600 – $1,000",
+                "idealFor": "Campañas, funnels, ads.",
+                "features": [
+                    "1 página ultra optimizada",
+                    "Copy de conversión",
+                    "Animaciones estratégicas",
+                    "CTA con feedback",
+                    "Integración CRM básica",
+                    "Métricas (GA / eventos)"
+                ]
+            },
+            "starter_app": {
+                "title": "Apps & Sistemas Lite",
+                "subtitle": "Agendas / Rifas / CRM",
+                "price": "$600 – $1,800",
+                "idealFor": "Barberías, Spa, Rifas, Consultorios.",
+                "features": [
+                    "Agenda & Citas Online",
+                    "Sistema de Rifas / Boletos",
+                    "CRM Clientes & Historial",
+                    "Recordatorios WhatsApp",
+                    "Pagos Integrados",
+                    "Panel de Control"
+                ]
+            },
+            "corporate": {
+                "title": "Corporativo Premium",
+                "subtitle": "Empresas / Startups",
+                "price": "$1,800 – $3,000",
+                "idealFor": "Marcas B2B, Startups.",
+                "features": [
+                    "5–10 secciones",
+                    "Arquitectura UX clara",
+                    "Animaciones 'Locomotive'",
+                    "Micro-interacciones premium",
+                    "Integración CRM",
+                    "Performance + seguridad"
+                ]
+            },
+            "ecommerce": {
+                "title": "E-Commerce",
+                "subtitle": "Tienda Online",
+                "price": "$2,500 – $4,500",
+                "idealFor": "Venta de productos online.",
+                "features": [
+                    "Diseño custom",
+                    "Animaciones de producto",
+                    "Checkout optimizado",
+                    "Pasarela de pagos",
+                    "Automatización de pedidos",
+                    "Email marketing básico"
+                ]
+            },
+            "custom": {
+                "title": "A Medida / Sistemas",
+                "subtitle": "Soluciones Reales",
+                "price": "Desde $4,000",
+                "idealFor": "Empresas con lógica de negocio compleja.",
+                "features": [
+                    "Desarrollo custom",
+                    "Paneles administrativos",
+                    "Flujos automatizados",
+                    "Integraciones API",
+                    "Animaciones funcionales",
+                    "Documentación técnica"
+                ]
+            },
+            "crm": {
+                "title": "Core Helixx (IA)",
+                "subtitle": "CRM + Automatización",
+                "price": "$3,000 – $8,000",
+                "idealFor": "Empresas que quieren escalar.",
+                "features": [
+                    "CRM personalizado",
+                    "Automatización de leads",
+                    "Formularios inteligentes",
+                    "Integración IA (chatbots)",
+                    "Dashboards",
+                    "Optimización de procesos"
+                ]
+            }
+        },
+        "upsells": {
+            "title": "Servicios Adicionales",
+            "items": [
+                {
+                    "name": "Animaciones avanzadas GSAP",
+                    "price": "$300 – $800"
+                },
+                {
+                    "name": "Micro-interacciones premium",
+                    "price": "$200 – $500"
+                },
+                {
+                    "name": "Integración IA (Bots)",
+                    "price": "$500 – $2,000"
+                },
+                {
+                    "name": "CRM avanzado",
+                    "price": "$800 – $2,500"
+                },
+                {
+                    "name": "SEO avanzado",
+                    "price": "$400 – $1,200"
+                },
+                {
+                    "name": "Optimización (CRO)",
+                    "price": "$600 – $1,500"
+                }
+            ]
+        }
+    }
+}

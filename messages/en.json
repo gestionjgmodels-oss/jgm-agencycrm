@@ -1,0 +1,273 @@
+{
+    "Header": {
+        "services": "Services",
+        "process": "Methodology",
+        "pricing": "Plans",
+        "results": "Results",
+        "getStarted": "Free Consultation"
+    },
+    "Hero": {
+        "badge": "Digital Ecosystems",
+        "titleLine1": "Webs that work like",
+        "titleHighlight": "Intelligent Systems",
+        "description": "We transform ideas into intelligent web systems that work as growth engines. Automate, convert, and scale your business.",
+        "ctaPrimary": "Start Transformation",
+        "ctaSecondary": "View Pillars",
+        "stats": {
+            "projects": "Systems Delivered",
+            "uptime": "Automation",
+            "costReduction": "Conversion",
+            "satisfaction": "Scalability"
+        }
+    },
+    "Services": {
+        "headline": "Pillars of",
+        "headlineHighlight": "Helixx DNA",
+        "subheadline": "We don’t make pretty sites — we make digital ecosystems that generate measurable results.",
+        "cards": {
+            "webDev": {
+                "title": "Business-First Technology",
+                "description": "Frontend and backend architectures that impact conversions. Next.js, GSAP, robust APIs.",
+                "features": [
+                    "Next.js Architecture",
+                    "Headless CMS",
+                    "Real Performance"
+                ]
+            },
+            "automation": {
+                "title": "Self-Operating Systems",
+                "description": "Native automations: forms → CRM → notifications → sales flows.",
+                "features": [
+                    "CRM Integration",
+                    "Sales Flows",
+                    "Auto Notifications"
+                ]
+            },
+            "ai": {
+                "title": "Educational Interaction",
+                "description": "Informative UX, intentional motion. Animations are not decorative, but didactic.",
+                "features": [
+                    "Motion UX",
+                    "Persuasive Design",
+                    "Visual Clarity"
+                ]
+            },
+            "crm": {
+                "title": "Measurement & Growth",
+                "description": "Metrics integrated from the start: Conversion rate, Interaction time, Effectiveness.",
+                "features": [
+                    "Advanced Analytics",
+                    "ROI Optimization",
+                    "Actionable Data"
+                ]
+            }
+        }
+    },
+    "Process": {
+        "headline": "Our",
+        "headlineHighlight": "Methodology",
+        "subheadline": "A streamlined process designed to deliver results efficiently and effectively.",
+        "steps": {
+            "0": {
+                "title": "Diagnosis",
+                "desc": "We analyze your current infrastructure and identify bottlenecks."
+            },
+            "1": {
+                "title": "Strategy",
+                "desc": "We design a custom roadmap tailored to your specific goals."
+            },
+            "2": {
+                "title": "Development",
+                "desc": "Our experts build your solution using cutting-edge tech."
+            },
+            "3": {
+                "title": "Optimization",
+                "desc": "Continuous monitoring and improvements for maximum uptime."
+            }
+        }
+    },
+    "TechStack": {
+        "poweredBy": "Powered by modern technologies"
+    },
+    "Footer": {
+        "readyTo": "Ready to",
+        "scale": "Scale?",
+        "ctaText": "Book a free consultation with our experts and discover how we can transform your digital operation.",
+        "form": {
+            "namePlaceholder": "Name",
+            "emailPlaceholder": "Email",
+            "messagePlaceholder": "Tell us about your project",
+            "submitButton": "Send Request"
+        },
+        "copyright": "© 2026 Helixx Studio. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "Pricing": {
+        "headline": "Investment Models",
+        "subheadline": "We don’t sell 'just a website'. We deliver a system that captures, processes, and converts customers automatically.",
+        "tiers": {
+            "basic": {
+                "title": "Basic Website",
+                "subtitle": "Professional Presence",
+                "price": "$800 – $1,200",
+                "idealFor": "Small businesses, personal brands.",
+                "features": [
+                    "1–5 sections",
+                    "Premium UI Design",
+                    "Responsive",
+                    "Basic Animations",
+                    "Basic SEO",
+                    "Contact Form"
+                ]
+            },
+            "landing": {
+                "title": "Landing Page",
+                "subtitle": "Conversion / Leads",
+                "price": "$600 – $1,000",
+                "idealFor": "Campaigns, funnels, ads.",
+                "features": [
+                    "1 ultra-optimized page",
+                    "<Conversion Copy>",
+                    "Strategic Animations",
+                    "CTA with feedback",
+                    "Basic CRM Integr",
+                    "Metrics (GA / events)"
+                ]
+            },
+            "starter_app": {
+                "title": "Apps & Systems Lite",
+                "subtitle": "Booking / Raffles / CRM",
+                "price": "$600 – $1,800",
+                "idealFor": "Barbers, Spas, Raffle Organizers, Consultants.",
+                "features": [
+                    "Online Booking & Appts",
+                    "Raffle/Ticket System",
+                    "Client CRM & History",
+                    "WhatsApp Reminders",
+                    "Integrated Payments",
+                    "Admin Control Panel"
+                ]
+            },
+            "corporate": {
+                "title": "Corporate Premium",
+                "subtitle": "Companies / Startups",
+                "price": "$1,800 – $3,000",
+                "idealFor": "B2B Brands, Startups.",
+                "features": [
+                    "5–10 sections",
+                    "Clear UX Architecture",
+                    "Locomotive-style Anim",
+                    "Premium Micro-interactions",
+                    "CRM Integration",
+                    "Performance + Security"
+                ]
+            },
+            "ecommerce": {
+                "title": "E-Commerce",
+                "subtitle": "Online Store",
+                "price": "$2,500 – $4,500",
+                "idealFor": "Selling products online.",
+                "features": [
+                    "Custom Design",
+                    "Product Animations",
+                    "Optimized Checkout",
+                    "Payment Gateway",
+                    "Order Automation",
+                    "Basic Email Marketing"
+                ]
+            },
+            "custom": {
+                "title": "Custom / Systems",
+                "subtitle": "Real Solutions",
+                "price": "From $4,000",
+                "idealFor": "Companies with complex business logic.",
+                "features": [
+                    "Custom Development",
+                    "Admin Panels",
+                    "Automated Flows",
+                    "API Integrations",
+                    "Functional Animations",
+                    "Technical Documentation"
+                ]
+            },
+            "crm": {
+                "title": "Core Helixx (AI)",
+                "subtitle": "CRM + Automation",
+                "price": "$3,000 – $8,000",
+                "idealFor": "Scaling companies.",
+                "features": [
+                    "Custom CRM",
+                    "Lead Automation",
+                    "Smart Forms",
+                    "AI Integration (Chatbots)",
+                    "Dashboards",
+                    "Process Optimization"
+                ]
+            }
+        },
+        "packages": {
+            "startup": {
+                "title": "Basic CRM Pack",
+                "price": "$600 - $1,000",
+                "features": [
+                    "Landing Page + CRM",
+                    "Booking / Appointments",
+                    "WhatsApp Reminders",
+                    "Hosting Included"
+                ]
+            },
+            "scale": {
+                "title": "Scalable Company Pack",
+                "price": "$3,500",
+                "features": [
+                    "Premium Web",
+                    "Automation",
+                    "AI Integration",
+                    "Metrics"
+                ]
+            },
+            "system": {
+                "title": "Digital System Pack",
+                "price": "$6,000+",
+                "features": [
+                    "Custom Dev",
+                    "CRM + AI",
+                    "Full Automation",
+                    "Strategic Support"
+                ]
+            }
+        },
+        "upsells": {
+            "title": "Additional Services",
+            "items": [
+                {
+                    "name": "Advanced GSAP Animations",
+                    "price": "$300 – $800"
+                },
+                {
+                    "name": "Premium Micro-interactions",
+                    "price": "$200 – $500"
+                },
+                {
+                    "name": "AI Integration (Bots)",
+                    "price": "$500 – $2,000"
+                },
+                {
+                    "name": "Advanced CRM",
+                    "price": "$800 – $2,500"
+                },
+                {
+                    "name": "Advanced SEO",
+                    "price": "$400 – $1,200"
+                },
+                {
+                    "name": "Conversion Opt (CRO)",
+                    "price": "$600 – $1,500"
+                }
+            ]
+        },
+        "bestValue": "Best Value",
+        "selectPackage": "Select Package"
+    }
+}
