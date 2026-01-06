@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Roboto_Mono } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -17,13 +17,13 @@ export function generateStaticParams() {
   return [{ locale: 'es' }, { locale: 'en' }];
 }
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const robotoMono = Roboto_Mono({
+  variable: "--font-roboto-mono",
   subsets: ["latin"],
 });
 
@@ -50,7 +50,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-gray-900 dark:text-gray-100 selection:bg-brand-accent/30 transition-colors duration-300`}
+        className={`${inter.variable} ${robotoMono.variable} antialiased text-gray-900 dark:text-gray-100 selection:bg-brand-accent/30 transition-colors duration-300`}
       >
         <ThemeProvider>
           <LeadProvider>

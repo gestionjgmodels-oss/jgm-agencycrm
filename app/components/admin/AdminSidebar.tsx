@@ -10,10 +10,11 @@ export default function AdminSidebar() {
     const pathname = usePathname();
 
     const menuItems = [
-        { name: "Dashboard", href: "/admin/dashboard", icon: LayoutDashboard },
-        { name: "Inbox (CRM)", href: "/admin/inbox", icon: MessageSquare },
+        { name: "Cuentas", href: "/admin/accounts", icon: LayoutDashboard },
         { name: "Analytics", href: "/admin/analytics", icon: BarChart3 },
-        { name: "Settings", href: "/admin/settings", icon: Settings },
+        { name: "Mensajes", href: "/admin/inbox", icon: MessageSquare },
+        { name: "Equipo", href: "/admin/team", icon: Users },
+        { name: "Configuración", href: "/admin/settings", icon: Settings },
     ];
 
     const { logout } = useAuth();
@@ -24,7 +25,7 @@ export default function AdminSidebar() {
         <aside className="w-64 bg-gray-950 border-r border-gray-800 text-white flex flex-col h-screen fixed top-0 left-0 z-50">
             <div className="p-6 border-b border-gray-800 flex items-center gap-3">
                 <div className="w-8 h-8 rounded bg-brand-accent flex items-center justify-center font-bold text-white text-xs">
-                    HX
+                    JG
                 </div>
                 <span className="font-bold tracking-tight text-lg">Command Center</span>
             </div>
